@@ -10,7 +10,7 @@ import Company from "./pages/Company";
 
 function App() {
   return (
-    <div className="relative w-full h-screen bg-[#0B0F19] overflow-hidden">
+    <div className="relative w-full h-screen bg-[#0B0F19] ">
       <Design />
       <BrowserRouter>
         <Routes>

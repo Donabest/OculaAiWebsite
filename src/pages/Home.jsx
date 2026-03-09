@@ -1,6 +1,8 @@
 import { MdArrowOutward } from "react-icons/md";
 import Button from "../ui/Button";
 import { motion } from "motion/react";
+import Dashboard from "../ui/Dashboard";
+import MarqueeLogo from "../Logo/MarqueeLogo";
 
 function Home() {
   return (
@@ -41,6 +43,10 @@ function Home() {
           </span>
         </Button>
       </div>
+
+      <Dashboard />
+
+      <MarqueeLogo />
     </motion.div>
   );
 }
