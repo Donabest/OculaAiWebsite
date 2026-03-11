@@ -23,7 +23,7 @@ function Design() {
         <Particles
           id="tsparticles"
           particlesLoaded={particlesLoaded}
-          className="fixed inset-0 "
+          className="absolute inset-0 -z-10"
           options={{
             background: {
               color: {

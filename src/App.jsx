@@ -10,22 +10,19 @@ import Company from "./pages/Company";
 
 function App() {
   return (
-    <div className="relative w-full h-screen bg-[#0B0F19] ">
-      <Design />
-      <BrowserRouter>
-        <Routes>
-          <Route element={<AppLayout />}>
-            <Route index element={<Navigate replace="/Home" />} />
-            <Route path="/Home" element={<Home />} />
-            <Route path="/Features" element={<Features />} />
-            <Route path="/Pricing" element={<Pricing />} />
-            <Route path="/Resources" element={<Resources />} />
-            <Route path="/Solution" element={<Solution />} />
-            <Route path="/Company" element={<Company />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<AppLayout />}>
+          <Route index element={<Navigate replace to="/Home" />} />
+          <Route path="/Home" element={<Home />} />
+          <Route path="/Features" element={<Features />} />
+          <Route path="/Pricing" element={<Pricing />} />
+          <Route path="/Resources" element={<Resources />} />
+          <Route path="/Solution" element={<Solution />} />
+          <Route path="/Company" element={<Company />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
