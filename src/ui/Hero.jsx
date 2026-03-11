@@ -1,3 +1,4 @@
+import { motion } from "motion/react";
 import { MdArrowOutward } from "react-icons/md";
 import Button from "./Button";
 import Dashboard from "./Dashboard";
@@ -5,8 +6,13 @@ import Design from "../particles/Design";
 
 function Hero() {
   return (
-    <section className="relative h-[80vh] md:h-[125vh] -z-10 ">
-      <div className="absolute inset-0 overflow-hidden">
+    <motion.section
+      className="relative h-[80vh] max-w-4xl mx-auto "
+      initial={{ opacity: 0, y: 40 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8, delay: 0.8 }}
+    >
+      <div className="absolute -z-10 ">
         <Design />
       </div>
       <div className="relative min-h-screen">
@@ -44,7 +50,7 @@ function Hero() {
 
         <Dashboard />
       </div>
-    </section>
+    </motion.section>
   );
 }
 

@@ -35,7 +35,7 @@ function Navbar() {
 
   return (
     <motion.nav
-      className="flex justify-between items-center text-white mt-8"
+      className="flex justify-between items-center text-white pt-8"
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}

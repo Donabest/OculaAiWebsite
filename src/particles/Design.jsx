@@ -22,8 +22,8 @@ function Design() {
       {init && (
         <Particles
           id="tsparticles"
-          particlesLoaded={particlesLoaded}
           className="absolute inset-0 -z-10"
+          particlesLoaded={particlesLoaded}
           options={{
             background: {
               color: {

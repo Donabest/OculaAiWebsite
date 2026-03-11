@@ -10,16 +10,16 @@ import Vercellogo from "./Vercellogo";
 function TrustedCompany() {
   return (
     <motion.section
-      className="relative bg-[#0B0F19] pt-20 mt-26 w-121 md:w-365 lg:w-300"
+      className="relative bg-[#0B0F19] pt-20 mt-26 w-full  "
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, delay: 0.5 }}
     >
-      <p className="text-2xl mx-auto text-center text-neutral-300 font-montserrat grayscale-10">
+      <p className="font-montserrat font-semibold text-2xl text-center text-neutral-400  mx-auto">
         Trusted by global companies
       </p>
 
-      <div className="mx-auto w-100 mt-10 mb-26 md:w-250">
+      <div className="mx-auto mt-10 mb-26 w-full">
         <Marquee
           speed={50}
           autoFill={true}

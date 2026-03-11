@@ -6,7 +6,7 @@ function Dashboard() {
       <img
         src="../../src/assets/uidashboard.jpg"
         alt=""
-        className="relative rounded-xl shadow-2xl w-500"
+        className="relative rounded-xl shadow-2xl w-full"
       />
 
       <div className="absolute inset-0 bg-linear-to-t from-slate-950 via-transparent to-transparent rounded-xl"></div>
