@@ -5,7 +5,7 @@ import Design from "../particles/Design";
 
 function Hero() {
   return (
-    <section className="relative min-h-screen -z-10 ">
+    <section className="relative h-[80vh] md:h-[125vh] -z-10 ">
       <div className="absolute inset-0 overflow-hidden">
         <Design />
       </div>

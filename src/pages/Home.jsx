@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import TrustedCompany from "../Logo/TrustedCompany";
 import Hero from "../ui/Hero";
+import HomePageFeature from "../ui/HomePageFeature";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
     >
       <Hero />
       <TrustedCompany />
+      <HomePageFeature />
     </motion.div>
   );
 }
