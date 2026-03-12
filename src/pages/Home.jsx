@@ -1,6 +1,7 @@
 import TrustedCompany from "../Logo/TrustedCompany";
 import Hero from "../ui/Hero";
 import HomePageFeature from "../ui/HomePageFeature";
+import HowItWorks from "../ui/HowItWorks";
 
 function Home() {
   return (
@@ -8,6 +9,7 @@ function Home() {
       <Hero />
       <TrustedCompany />
       <HomePageFeature />
+      <HowItWorks />
     </div>
   );
 }
