@@ -10,7 +10,7 @@ import Vercellogo from "./Vercellogo";
 function TrustedCompany() {
   return (
     <motion.section
-      className="relative bg-[#0B0F19] pt-20 mt-26 w-full  "
+      className="relative bg-[#0B0F19] pt-20 mt-10 w-full md:mt-90  "
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, delay: 0.5 }}
