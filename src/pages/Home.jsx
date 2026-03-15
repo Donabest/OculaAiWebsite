@@ -1,6 +1,7 @@
 import TrustedCompany from "../Logo/TrustedCompany";
 import Hero from "../ui/Hero";
 import HomePageFeature from "../ui/HomePageFeature";
+import HomePagePricing from "../ui/HomePagePricing";
 import HowItWorks from "../ui/HowItWorks";
 
 function Home() {
@@ -10,6 +11,7 @@ function Home() {
       <TrustedCompany />
       <HomePageFeature />
       <HowItWorks />
+      <HomePagePricing />
     </div>
   );
 }

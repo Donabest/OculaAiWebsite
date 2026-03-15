@@ -54,6 +54,7 @@ function HomePageFeature() {
               duration: 0.8,
               delay: feature.delay,
             }}
+            key={feature.title}
           >
             {feature.icon}
             <div className="flex flex-col justify-center items-start text-start space-y-2 font-montserrat text-neutral-200">
