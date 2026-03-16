@@ -34,6 +34,7 @@ function HomePageFeature() {
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.5 }}
+        viewport={{ once: true }}
       >
         <h2 className="font-raleway font-[475] text-neutral-400 text-3xl text-left  ">
           <strong className=" text-neutral-100 ">
@@ -54,6 +55,7 @@ function HomePageFeature() {
               duration: 0.8,
               delay: feature.delay,
             }}
+            viewport={{ once: true }}
             key={feature.title}
           >
             {feature.icon}

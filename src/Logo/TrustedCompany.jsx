@@ -14,6 +14,7 @@ function TrustedCompany() {
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, delay: 0.5 }}
+      viewport={{ once: true }}
     >
       <p className="font-montserrat font-semibold text-2xl text-center text-neutral-400  mx-auto">
         Trusted by global companies

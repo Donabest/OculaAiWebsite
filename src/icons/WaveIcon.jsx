@@ -111,7 +111,7 @@ function WaveIcon() {
         r="7"
         fill="#1e3a8a"
         stroke="#60a5fa"
-        stroke-width="2.5"
+        strokeWidth="2.5"
         filter="url(#dotGlow)"
         initial={{ scale: 0 }}
         whileInView={{ scale: 1 }}
@@ -125,7 +125,7 @@ function WaveIcon() {
         r="7"
         fill="#1e3a8a"
         stroke="#3b82f6"
-        stroke-width="2.5"
+        strokeWidth="2.5"
         filter="url(#dotGlow)"
         initial={{ scale: 0 }}
         whileInView={{ scale: 1 }}

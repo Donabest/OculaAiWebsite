@@ -71,6 +71,7 @@ function HowItWorksContent() {
             initial={{ opacity: 0, scale: 0 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.3, delay: step.delay }}
+            viewport={{ once: true }}
             key={step.number}
           >
             <span className="text-5xl font-roboto font-extrabold text-[#1d4ed8]">
