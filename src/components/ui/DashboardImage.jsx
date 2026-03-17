@@ -1,11 +1,13 @@
+import dashboardImage from "../../assets/uidashboard.jpg";
+
 function DashboardImage() {
   return (
     <div className="relative flex justify-center transform perspective-1000 rotate-x-6 mt-20">
       <div className="absolute w-175 h-85.7 bg-indigo-500/20 blur-3xl rounded-full"></div>
 
       <img
-        src="../../src/assets/uidashboard.jpg"
-        alt=""
+        src={dashboardImage}
+        alt={dashboardImage}
         className="relative rounded-xl shadow-2xl lg:w-full md:w-150"
       />
 
