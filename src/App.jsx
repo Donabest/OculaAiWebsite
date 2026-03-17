@@ -1,4 +1,4 @@
-import AppLayout from "./Layouts/AppLayout";
+import AppLayout from "./components/Layouts/AppLayout";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import Features from "./pages/Features";
 import Design from "./particles/Design";
@@ -15,11 +15,6 @@ function App() {
         <Route element={<AppLayout />}>
           <Route index element={<Navigate replace to="/Home" />} />
           <Route path="/Home" element={<Home />} />
-          <Route path="/Features" element={<Features />} />
-          <Route path="/Pricing" element={<Pricing />} />
-          <Route path="/Resources" element={<Resources />} />
-          <Route path="/Solution" element={<Solution />} />
-          <Route path="/Company" element={<Company />} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
-import Fig01 from "../icons/Fig01";
-import Fig02 from "../icons/Fig02";
-import Fig03 from "../icons/Fig03";
+import Fig01 from "../../icons/Fig01";
+import Fig02 from "../../icons/Fig02";
+import Fig03 from "../../icons/Fig03";
 
 const features = [
   {
@@ -28,9 +28,9 @@ const features = [
 
 function HomePageFeature() {
   return (
-    <section className="bg-[#0B0F19]">
+    <section id="Features" className="bg-[#0B0F19]">
       <motion.div
-        className="  p-4 my-10"
+        className=" p-4 my-10 bg-[#0B0F19]"
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.5 }}
@@ -45,7 +45,7 @@ function HomePageFeature() {
         </h2>
       </motion.div>
 
-      <div className="flex overflow-x-auto no-scrollbar mask-fade md:grid md:grid-cols-3 md:fade-none">
+      <div className="flex overflow-x-auto no-scrollbar mask-fade bg-[#0B0F19] md:grid md:grid-cols-3 md:fade-none">
         {features.map((feature) => (
           <motion.div
             className="flex flex-col justify-center items-center text-center p-8 space-y-6 border-r border-r-white/10 "

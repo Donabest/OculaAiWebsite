@@ -8,13 +8,12 @@ const CardObj = [
     amtPeriod: "Forever",
     pricedesc: "For individual or small teams just getting started",
     start: "Sign Up Now",
-    feature: "All free plan features,plus:",
     featureList: [
-      "Ulimited team member",
-      "Ulimited projects",
-      "Priority-based workflows",
-      "Ocula Ai 5.0 Version",
-      "30-day version history",
+      "Up to 3 team members",
+      "2 active projects",
+      "basic task management",
+      "Real time collaboration",
+      "2 day version history(Cloud backup)",
     ],
     delay: 0.6,
   },
@@ -24,7 +23,6 @@ const CardObj = [
     amtPeriod: "/ per user / month",
     pricedesc: "For growing teams who need better integration",
     start: "Start Free Trial",
-    feature: "All free plan features,plus:",
     featureList: [
       "Ulimited team member",
       "Ulimited projects",
@@ -41,23 +39,22 @@ const CardObj = [
     amtPeriod: "/ per user / month",
     pricedesc: "For companies that need robust security",
     start: "Start Free Trial",
-    feature: "All free plan features,plus:",
     featureList: [
-      "Ulimited team member",
+      "Dedicated account manager",
       "Ulimited projects",
-      "Priority-based workflows",
+      "Ai driven predictive analytics",
       "Ocula Ai 5.0 Version",
-      "30-day version history",
+      "24/7 priority support",
     ],
     delay: 1,
   },
 ];
 function PricingCard() {
   return (
-    <div className="container w-full max-w-6xl mx-auto font-raleway grid grid-cols-1 md:gap-6 pt-20 md:grid-cols-3">
+    <div className="container w-full  mx-auto font-raleway grid grid-cols-1 pt-18 md:grid-cols-2 md:gap-4 lg:gap-7  lg:grid-cols-3">
       {CardObj.map((card) => (
         <motion.div
-          className={`space-y-4 p-7 mt-8 bg-black/5 border border-white/30 rounded-4xl transform  ${card.popular ? "md:scale-110  opacity-100 md:z-10" : "scale-100 opacity-60 "} `}
+          className={`space-y-4 p-7 mt-8 bg-black/5 border border-white/30 rounded-4xl transform  ${card.popular ? "lg:scale-110  lg:opacity-100 lg:z-10" : "scale-100 lg:opacity-60 "} `}
           key={card.head}
           initial={{ scale: 0 }}
           whileInView={{ scale: 1 }}
@@ -86,11 +83,11 @@ function PricingCard() {
           </div>
 
           <div className="space-y-5 pt-6">
-            <h1 className="text-lg">{card.feature}</h1>
+            <h1 className="text-lg">All free plan features,plus:</h1>
 
             <ul className="leading-8 text-gray-200">
-              {card.featureList.map((list) => (
-                <li className="flex items-center gap-2">
+              {card.featureList.map((list, index) => (
+                <li className="flex items-center gap-2" key={index}>
                   <FaCheckCircle />
                   {list}
                 </li>

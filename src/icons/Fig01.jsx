@@ -67,7 +67,7 @@ function Fig01() {
         ></path>
         <path
           stroke="#3E3E44"
-          strokeDasharray="1 3"
+          strokeWidth="1 3"
           strokeLinecap="round"
           d="M12.679 84.584v20.142M132.25 144.583v20.143M251.821 84.584v20.142"
         ></path>
@@ -78,10 +78,10 @@ function Fig01() {
             height="156.191"
             x="0"
             y="0"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
             filterUnits="userSpaceOnUse"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
             <feColorMatrix
               in="SourceAlpha"
               result="hardAlpha"

@@ -8,9 +8,9 @@ function WaveIcon() {
     >
       <defs>
         <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stop-color="#1d4ed8" stop-opacity="0.7" />
-          <stop offset="50%" stop-color="#3b82f6" stop-opacity="1" />
-          <stop offset="100%" stop-color="#1d4ed8" stop-opacity="0.7" />
+          <stop offset="0%" stopColor="#1d4ed8" stopOpacity="0.7" />
+          <stop offset="50%" stopColor="#3b82f6" stopOpacity="1" />
+          <stop offset="100%" stopColor="#1d4ed8" stopOpacity="0.7" />
         </linearGradient>
 
         <filter id="glow" x="-20%" y="-80%" width="140%" height="260%">
@@ -34,9 +34,9 @@ function WaveIcon() {
         d="M 60 160 C 160 160, 260 70, 400 70 C 540 70, 640 160, 740 160"
         fill="none"
         stroke="#3b82f6"
-        stroke-width="2"
-        stroke-opacity="0.15"
-        stroke-linecap="round"
+        strokeWidth="2"
+        strokeOpacity="0.15"
+        strokeLinecap="round"
         initial={{ pathLength: 0 }}
         whileInView={{ pathLength: 1 }}
         transition={{ duration: 2 }}
@@ -46,8 +46,8 @@ function WaveIcon() {
         d="M 60 160 C 160 160, 260 70, 400 70 C 540 70, 640 160, 740 160"
         fill="none"
         stroke="url(#waveGrad)"
-        stroke-width="2"
-        stroke-linecap="round"
+        strokeWidth="2"
+        strokeLinecap="round"
         filter="url(#glow)"
         initial={{ pathLength: 0 }}
         whileInView={{ pathLength: 1 }}
@@ -57,36 +57,36 @@ function WaveIcon() {
       <text
         x="65"
         y="135"
-        font-family="sans-serif"
-        font-size="72"
-        font-weight="800"
+        fontFamily="sans-serif"
+        fontSize="72"
+        fontWeight="800"
         fill="#1d4ed8"
-        fill-opacity="0.5"
-        text-anchor="middle"
+        fillOpacity="0.5"
+        textAnchor="middle"
       >
         1
       </text>
       <text
         x="400"
         y="55"
-        font-family="sans-serif"
-        font-size="72"
-        font-weight="800"
+        fontFamily="sans-serif"
+        fontSize="72"
+        fontWeight="800"
         fill="#1d4ed8"
-        fill-opacity="0.5"
-        text-anchor="middle"
+        fillOpacity="0.5"
+        textAnchor="middle"
       >
         2
       </text>
       <text
         x="740"
         y="140"
-        font-family="sans-serif"
-        font-size="72"
-        font-weight="800"
+        fontFamily="sans-serif"
+        fontSize="72"
+        fontWeight="800"
         fill="#1d4ed8"
-        fill-opacity="0.5"
-        text-anchor="middle"
+        fillOpacity="0.5"
+        textAnchor="middle"
       >
         3
       </text>
@@ -97,7 +97,7 @@ function WaveIcon() {
         r="7"
         fill="#1e3a8a"
         stroke="#3b82f6"
-        stroke-width="2.5"
+        strokeWidth="2.5"
         filter="url(#dotGlow)"
         initial={{ scale: 0 }}
         whileInView={{ scale: 1 }}

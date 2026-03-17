@@ -1,11 +1,11 @@
 import Marquee from "react-fast-marquee";
 import { motion } from "motion/react";
 
-import AwsLogo from "./AwsLogo";
-import FigmaLogo from "./FigmaLogo";
-import NextjsLogo from "./NextjsLogo";
-import ReactLogo from "./ReactLogo";
-import Vercellogo from "./Vercellogo";
+import AwsLogo from "../../Logo/AwsLogo";
+import FigmaLogo from "../../Logo/FigmaLogo";
+import NextjsLogo from "../../Logo/NextjsLogo";
+import ReactLogo from "../../Logo/ReactLogo";
+import Vercellogo from "../../Logo/Vercellogo";
 
 function TrustedCompany() {
   return (
@@ -20,7 +20,7 @@ function TrustedCompany() {
         Trusted by global companies
       </p>
 
-      <div className="mx-auto mt-10 mb-26 w-full">
+      <div className="mx-auto mt-10 mb-26 w-full bg-[#0B0F19]">
         <Marquee
           speed={50}
           autoFill={true}

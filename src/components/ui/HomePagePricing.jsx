@@ -5,7 +5,7 @@ import PricingCard from "./PricingCard";
 
 function HomePagePricing() {
   return (
-    <section className="bg-[#0B0F19]">
+    <section id="Pricing" className="bg-[#0B0F19]">
       <SectionHeadLine
         title="Flexible Plans for Every Team "
         desc="Weather you're a small startup or a growing enterprise,we've got you covered."

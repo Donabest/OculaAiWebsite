@@ -1,13 +1,14 @@
 import { motion } from "motion/react";
 import { MdArrowOutward } from "react-icons/md";
 import Button from "./Button";
-import Dashboard from "./Dashboard";
-import Design from "../particles/Design";
+import Design from "../../particles/Design";
+import DashboardImage from "./DashboardImage";
 
 function Hero() {
   return (
     <motion.section
-      className="relative h-[80vh] max-w-4xl mx-auto "
+      id="Home"
+      className="relative h-[80vh] max-w-4xl mx-auto md:pt-26 "
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, delay: 0.8 }}
@@ -25,7 +26,7 @@ function Hero() {
         </div>
         <div className="mt-3">
           <h1 className="text-3xl text-center font-raleway font-semibold tracking-wide md:text-6xl md:font-medium">
-            Build Powerful workflows without the complexity.
+            Build powerful workflows without the complexity.
           </h1>
           <p className="font-poppin font-light mt-4 text-center  mx-auto max-w-80 tracking-wide md:max-w-xl">
             Design smarter workflows,automate repetitive tasks,and collaborate
@@ -49,7 +50,7 @@ function Hero() {
           </Button>
         </div>
 
-        <Dashboard />
+        <DashboardImage />
       </div>
     </motion.section>
   );

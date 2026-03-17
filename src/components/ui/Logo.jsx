@@ -1,6 +1,6 @@
-function logo() {
+function Logo() {
   return (
-    <div className="flex justify-center items-center text-center space-x-3">
+    <div className="flex justify-center items-center text-center space-x-3 ">
       <img
         src="../../src/assets/logo.jpeg"
         alt=""
@@ -13,4 +13,4 @@ function logo() {
   );
 }
 
-export default logo;
+export default Logo;

@@ -1,12 +1,12 @@
 import { HiExclamationCircle } from "react-icons/hi2";
 
-import WaveIcon from "../icons/WaveIcon";
 import HowItWorksContent from "./HowItWorksContent";
 import SectionHeadLine from "./SectionHeadLine";
+import WaveIcon from "../../icons/WaveIcon";
 
 function HowItWorks() {
   return (
-    <section>
+    <section id="Howitswork">
       <SectionHeadLine
         section="How it works"
         title={"Get Set Up in Minutes,Start Moving Fast"}
