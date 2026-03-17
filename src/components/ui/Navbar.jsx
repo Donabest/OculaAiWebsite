@@ -58,11 +58,11 @@ function Navbar() {
       <AnimatePresence initial={false}>
         {visible && (
           <motion.nav
-            className={` fixed top-0 left-0 right-0 z-50 flex justify-between items-center text-white px-6 py-8 transition-all duration-300 ${
+            className={`fixed top-0 left-0 right-0 z-50 flex justify-between items-center text-white px-6 py-8 transition-all duration-300 ${
               scrolled
-                ? "md:bg-[#060a10]/70 bg-gray-800/80 backdrop-blur-md shadow-lg"
+                ? "bg-[#060a10]/70  backdrop-blur-md shadow-lg"
                 : "bg-transparent"
-            }  lg:px-20`}
+            } ${isHamburger && "bg-gray-800/80"} lg:px-20`}
             initial={{ opacity: 0, y: -100 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -100 }}

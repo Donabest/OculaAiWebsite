@@ -64,7 +64,7 @@ function HowItWorksContent() {
         </p>
       </motion.div>
 
-      <section className="container w-full mx-auto space-y-4 mt-8 grid-cols-3 gap-2 bg-[#0B0F19] lg:hidden md:grid">
+      <section className="container w-full mx-auto space-y-4 mt-8 grid-cols-3 gap-2 bg-[#0B0F19] px-8 md:px-2 lg:hidden md:grid">
         {steps.map((step) => (
           <motion.div
             className={` border border-white/20  p-8 rounded-lg md:h-70 md:mt-${step.down}`}

@@ -36,7 +36,7 @@ function HomePageFeature() {
         transition={{ duration: 0.8, delay: 0.5 }}
         viewport={{ once: true }}
       >
-        <h2 className="font-raleway font-[475] text-neutral-400 text-3xl text-left  ">
+        <h2 className="font-raleway font-[475] text-neutral-400 text-3xl text-left  px-5 md:px-2">
           <strong className=" text-neutral-100 ">
             A new species of product tool.
           </strong>

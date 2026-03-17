@@ -39,6 +39,11 @@
   }
 }
 
+html,
+body {
+  background: #0b0f19;
+}
+
 .hamburger {
   cursor: pointer;
   width: 24px;

@@ -8,7 +8,7 @@ function DashboardImage() {
       <img
         src={dashboardImage}
         alt={dashboardImage}
-        className="relative rounded-xl shadow-2xl lg:w-full md:w-150"
+        className="relative rounded-xl shadow-2xl px-8 md:px-0 lg:w-full md:w-150"
       />
 
       <div className="absolute inset-0 bg-linear-to-t from-slate-950 via-transparent to-transparent rounded-xl"></div>

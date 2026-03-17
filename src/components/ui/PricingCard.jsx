@@ -51,7 +51,7 @@ const CardObj = [
 ];
 function PricingCard() {
   return (
-    <div className="container w-full  mx-auto font-raleway grid grid-cols-1 pt-18 md:grid-cols-2 md:gap-4 lg:gap-7  lg:grid-cols-3">
+    <div className="container w-full mx-auto font-raleway grid px-8 pt-18 md:px-2 md:grid-cols-2 md:gap-4 lg:gap-7 lg:grid-cols-3">
       {CardObj.map((card) => (
         <motion.div
           className={`space-y-4 p-7 mt-8 bg-black/5 border border-white/30 rounded-4xl transform  ${card.popular ? "lg:scale-110  lg:opacity-100 lg:z-10" : "scale-100 lg:opacity-60 "} `}

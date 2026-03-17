@@ -4,7 +4,7 @@ function SectionHeadLine({ children, title, desc }) {
       <h1 className="flex justify-center items-center gap-2 text-center px-4 py-2 rounded-full text-white font-montserrat bg-linear-to-r from-black to-blue-900 border border-indigo-400 ">
         {children}
       </h1>
-      <div className="text-center">
+      <div className="text-center px-4 md:p-2">
         <h1 className="font-montserrat font-medium  text-3xl mb-3  md:text-5xl ">
           {title}
         </h1>
