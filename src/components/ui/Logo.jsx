@@ -2,7 +2,7 @@ function Logo() {
   return (
     <div className="flex justify-center items-center text-center space-x-3 ">
       <img
-        src="../../src/assets/logo.jpeg"
+        src="../../../src/assets/logo.jpeg"
         alt=""
         className="w-6 h-6 md:w-9 md:h-9 rounded-lg shadow-lg"
       />
